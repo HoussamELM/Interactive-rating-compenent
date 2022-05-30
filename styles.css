@@ -58,11 +58,25 @@ display:flex;
 justify-content: center;
 }
 .s{
-  background-color: white;
-  color: hsl(25, 97%, 53%);
+  font-family: 'Overpass', sans-serif;
+  font-weight:700;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
   border: none;
   border-radius: 50px;
   width: 80%;
   height: 45px;
   margin-top: 7%;
+}
+.s:hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+/* second -- page*/
+
+#ty-img{
+display: flex;
+justify-content: center;
+padding-top: 10%;
 }
